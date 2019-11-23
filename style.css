@@ -1,0 +1,23 @@
+html {
+    font-family: sans-serif;
+  }
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: azure;
+  }
+
+footer {
+    opacity: 70%;;
+    font-size: medium;
+    position: fixed;
+    text-align: center;
+    color: goldenrod;
+    bottom: 0;
+  }
