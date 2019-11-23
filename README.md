@@ -1,2 +1,4 @@
-# guess-next-number.github.io
-A simple game of guessing. Purely based on your luck.
+# TEST YOUR LUCK
+
+
+This is a simple game called "test your luck". Built from HTML, CSS, and JS.
