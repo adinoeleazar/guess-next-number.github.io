@@ -10,8 +10,8 @@ If your guess is correct, you'll get 1 point. If your guess is incorrect, you'll
 
 To make this more interesting, i added some special treats :
 
-"HIGH RISK, HIGH REWARD" - if you choose equal and your guess is correct, you will get 10                                  points instead of just 1\s\s
-"I WIN THE JACKPOT!" - if you get 100 from the randomed number regardless what your guess is,                          your current score will be multiplied by 2\s\s
-"BAD LUCK" - if you get 0 from the randomed number regardless what your guess is, your score                 will reset to 0\s\s
+"HIGH RISK, HIGH REWARD" - if you choose equal and your guess is correct, you will get 10                                  points instead of just 1<br/>
+"I WIN THE JACKPOT!" - if you get 100 from the randomed number regardless what your guess is,                          your current score will be multiplied by 2<br/>
+"BAD LUCK" - if you get 0 from the randomed number regardless what your guess is, your score                 will reset to 0
 
 If multiple treats occured, the effect applies according to the order above.
