@@ -5,7 +5,7 @@ This is a simple game called "test your luck". Built from HTML, CSS, and JS.
 
 
 You're gonna start from 5, where the odds are 50:50. A number, ranged from 0 to 10, will be randomed and all you have to do is to guess whether that number is lower, equal, or higher than your current number.
-If your guess is correct, you'll get 1 point. If your guess is incorrect, you'll lose 1 point, but your score can't be less than 0. After each guess, the randomed number will replace your current number, and you may continue playing. Let's see how far you can go :)
+If your guess is correct, you'll get 1 point. If your guess is incorrect, you'll lose 1 point, but your score can't be less than 0. After each guess, the randomed number will replace your current number, and you may continue playing. There's a highscore recorder to track your highest score. Let's see how far you can go :)
 
 
 To make this more interesting, i added some special treats :

@@ -1,29 +1,42 @@
 var scoreElement = document.getElementById('score')
 var currentNumberElement = document.getElementById('now')
+var highScoreElement = document.getElementById('highscore')
 
 function increaseScore() {
-  var score = parseInt(scoreElement.innerHTML)
-  scoreElement.innerHTML = score + 1;
+  var score = parseInt(scoreElement.innerHTML) + 1
+  scoreElement.innerHTML = score
+  if (score > parseInt(highScoreElement.innerHTML)) {
+    highScoreElement.innerHTML = score
+  }
 }
 
 function decreaseScore() {
-  var score = parseInt(scoreElement.innerHTML)
-  scoreElement.innerHTML = score - 1
+  var score = parseInt(scoreElement.innerHTML) - 1
+  scoreElement.innerHTML = score
 }
 
 function highRiskHighReward() {
-  var score = parseInt(scoreElement.innerHTML)
-  scoreElement.innerHTML = score + 10;
+  var score = parseInt(scoreElement.innerHTML) + 10
+  scoreElement.innerHTML = score
+  if (score > parseInt(highScoreElement.innerHTML)) {
+    highScoreElement.innerHTML = score
+  }
 }
 
 function iWinTheJackpot() {
-  var score = parseInt(scoreElement.innerHTML)
-  scoreElement.innerHTML = score * 2;
+  var score = parseInt(scoreElement.innerHTML) * 2
+  scoreElement.innerHTML = score
+  if (score > parseInt(highScoreElement.innerHTML)) {
+    highScoreElement.innerHTML = score
+  }
 }
 
 function badLuck() {
-  var score = parseInt(scoreElement.innerHTML)
-  scoreElement.innerHTML = score * 0;
+  var score = parseInt(scoreElement.innerHTML) * 0
+  scoreElement.innerHTML = score
+  if (score > parseInt(highScoreElement.innerHTML)) {
+    highScoreElement.innerHTML = score
+  }
 }
 
 
